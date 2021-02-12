@@ -1,3 +1,14 @@
+**NEW CHANGES**
+
+- [ ] confirm everything is working since last commit is 4 year ago.
+- [ ] port the code for postgres
+- [ ] gzip before saving on s3
+- [ ] remove older backups (historical keepit size env variable)
+- [ ] cloudwatch instead of crontab
+
+
+
+
 **DB S3 Backup** is a Python Command Line Tool that makes database (MySQL, SQLite) backups easy and efficient by using Amazon S3 storage.
 The more recent backups are, the highest frequency they will be kept.
 
